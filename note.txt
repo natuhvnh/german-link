@@ -14,3 +14,5 @@ npm install --save axios
 npm install --save jwt-decode
 8. Install redux
 npm install --save redux react-redux redux-thunk
+9. Clone from github => install all dependences in package.json
+npm install
