@@ -8,7 +8,6 @@ class Conditions extends Component {
           <h4 className="text-center text-uppercase display-4 info-padding">
             Điều kiện du học Đức
           </h4>
-          <br />
           <ol className="text-white">
             <li className="conditon-text">
               Tham gia và đỗ kỳ thi THPT Quốc gia với các bài thi độc lập: Toán, Ngữ Văn, Ngoại ngữ
