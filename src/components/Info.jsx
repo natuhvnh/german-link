@@ -28,7 +28,7 @@ class Info extends Component {
             <i className="fa fa-smile-o info-icon"></i> 5 LÝ DO VÌ SAO CHỌN GERMAN-LINK ECO
           </h3>
         </div>
-        <div className="bg-dark text-white">
+        <div className="bg-secondary text-white">
           <div className="container">
             <div className="row">
               <span className="col-12 col-md-6 info-padding text-justify">
@@ -59,7 +59,7 @@ class Info extends Component {
             <i className="fa fa-frown-o info-icon"></i> CÁC RỦI RO KHI TỰ LÀM HỒ SƠ
           </h3>
         </div>
-        <div className="bg-dark text-white">
+        <div className="bg-secondary text-white">
           <div className="container">
             <div className="row">
               <span className="col-12 col-md-6 info-padding text-justify">
