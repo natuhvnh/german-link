@@ -107,7 +107,7 @@ class Form extends Component {
                 </div>
                 <div className="form-group col-lg-3 col-md-6 col-12">
                   <label htmlFor="option">
-                    <select name="cars" className="custom-select-sm custom-select">
+                    <select name="subj" className="custom-select-sm custom-select">
                       <option selected>Tự chọn</option>
                       <option value="toan">Toán</option>
                       <option value="Vatly">Vật lý</option>
@@ -139,7 +139,7 @@ class Form extends Component {
                 </div>
                 <div className="form-group col-md-4 col-sm-6 col-12">
                   <label htmlFor="option">
-                    <select name="cars" className="custom-select-sm custom-select">
+                    <select name="subj" className="custom-select-sm custom-select">
                       <option selected>Tự chọn 1</option>
                       <option value="toan">Toán</option>
                       <option value="Vatly">Vật lý</option>
@@ -156,7 +156,7 @@ class Form extends Component {
                 </div>
                 <div className="form-group col-md-4 col-sm-6 col-12">
                   <label htmlFor="option">
-                    <select name="cars" className="custom-select-sm custom-select">
+                    <select name="subj" className="custom-select-sm custom-select">
                       <option selected>Tự chọn 2</option>
                       <option value="toan">Toán</option>
                       <option value="Vatly">Vật lý</option>
@@ -173,7 +173,7 @@ class Form extends Component {
                 </div>
                 <div className="form-group col-md-4 col-sm-6 col-12">
                   <label htmlFor="option">
-                    <select name="cars" className="custom-select-sm custom-select">
+                    <select name="subj" className="custom-select-sm custom-select">
                       <option selected>Tự chọn 3</option>
                       <option value="toan">Toán</option>
                       <option value="Vatly">Vật lý</option>
@@ -191,8 +191,8 @@ class Form extends Component {
               </div>
             </div>
             <div className="text-center col-12">
-              <button type="submit" className="btn btn-primary center">
-                Submit
+              <button type="submit" className="btn center form-btn">
+                Đăng ký tư vấn
               </button>
             </div>
           </form>
