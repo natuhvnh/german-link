@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Conditions extends Component {
   render() {
     return (
-      <div className="img-bg">
+      <div className="img-bg" id="conditions">
         <div className="conditions-bg container">
           <h4 className="text-center text-uppercase display-4 info-padding">
             Điều kiện du học Đức

@@ -6,8 +6,8 @@ import Error from "./pages/Error";
 import Brand from "./components/Brand";
 import TopBar from "./components/TopBar";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import { Route, Switch } from "react-router-dom";
-
 function App() {
   return (
     <div>
@@ -19,6 +19,7 @@ function App() {
         <Route exact path="login" component={Login} />
         <Route component={Error} />
       </Switch>
+      <Footer />
     </div>
   );
 }

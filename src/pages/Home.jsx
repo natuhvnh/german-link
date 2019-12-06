@@ -8,7 +8,7 @@ import Conditions from "../components/Conditions";
 import Steps from "../components/Steps";
 import Form from "../components/Form";
 import Partners from "../components/Partners";
-import Map from "../components/Map";
+import Maps from "../components/Maps";
 
 class Home extends Component {
   render() {
@@ -23,7 +23,7 @@ class Home extends Component {
         <Steps />
         <Form />
         <Partners />
-        <Map />
+        <Maps />
       </div>
     );
   }

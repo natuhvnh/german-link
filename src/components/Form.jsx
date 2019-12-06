@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Form extends Component {
   render() {
     return (
-      <div className="bg-secondary">
+      <div className="bg-secondary" id="form">
         <div className="container form">
           <span className="text-center info-padding form-header">
             Để được tư vấn chi tiết, chính xác và tiết kiệm thời gian, xin vui lòng điền đầy đủ các
@@ -108,7 +108,7 @@ class Form extends Component {
                 <div className="form-group col-lg-3 col-md-6 col-12">
                   <label htmlFor="option">
                     <select name="subj" className="custom-select-sm custom-select">
-                      <option selected>Tự chọn</option>
+                      <option defaultValue>Tự chọn</option>
                       <option value="toan">Toán</option>
                       <option value="Vatly">Vật lý</option>
                       <option value="Hoahoc">Hóa học</option>
@@ -140,7 +140,7 @@ class Form extends Component {
                 <div className="form-group col-md-4 col-sm-6 col-12">
                   <label htmlFor="option">
                     <select name="subj" className="custom-select-sm custom-select">
-                      <option selected>Tự chọn 1</option>
+                      <option defaultValue>Tự chọn 1</option>
                       <option value="toan">Toán</option>
                       <option value="Vatly">Vật lý</option>
                       <option value="Hoahoc">Hóa học</option>
@@ -157,7 +157,7 @@ class Form extends Component {
                 <div className="form-group col-md-4 col-sm-6 col-12">
                   <label htmlFor="option">
                     <select name="subj" className="custom-select-sm custom-select">
-                      <option selected>Tự chọn 2</option>
+                      <option defaultValue>Tự chọn 2</option>
                       <option value="toan">Toán</option>
                       <option value="Vatly">Vật lý</option>
                       <option value="Hoahoc">Hóa học</option>
@@ -174,7 +174,7 @@ class Form extends Component {
                 <div className="form-group col-md-4 col-sm-6 col-12">
                   <label htmlFor="option">
                     <select name="subj" className="custom-select-sm custom-select">
-                      <option selected>Tự chọn 3</option>
+                      <option defaultValue>Tự chọn 3</option>
                       <option value="toan">Toán</option>
                       <option value="Vatly">Vật lý</option>
                       <option value="Hoahoc">Hóa học</option>

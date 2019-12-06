@@ -44,7 +44,7 @@ class Card extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container card-padding">
+        <div className="container card-padding" id="card">
           <div className="row text-center card-padding">
             <div className="col-12">
               <h2 className="display-4">Lý do du học Đức</h2>

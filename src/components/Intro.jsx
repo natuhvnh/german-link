@@ -43,7 +43,7 @@ class Intro extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="bg-secondary">
+        <section className="bg-secondary" id="intro">
           <div className="container">
             <div className="row text-center intro-padding">
               <h2 className="display-4 col-12">GERMAN-LINK ECO</h2>

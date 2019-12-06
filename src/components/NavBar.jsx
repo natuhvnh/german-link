@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ScrollspyNav from "react-scrollspy-nav";
 
 class NavBar extends Component {
   render() {
@@ -16,28 +17,34 @@ class NavBar extends Component {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="navbar-collapse collapse" id="navbarResponsive">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Giới thiệu German-link ECO
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Lý do du học Đức
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Điều kiện và các bước
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Liên hệ
-                </a>
-              </li>
-            </ul>
+            <ScrollspyNav
+              scrollTargetIds={["intro", "card", "conditions", "form"]}
+              activeNavClass="is-active"
+              scrollDuration="1000"
+              headerBackground="false">
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                  <a className="nav-link" href="#intro">
+                    Giới thiệu German-link ECO
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#card">
+                    Lý do du học Đức
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#conditions">
+                    Điều kiện và các bước
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#form">
+                    Liên hệ
+                  </a>
+                </li>
+              </ul>
+            </ScrollspyNav>
           </div>
         </div>
       </nav>
