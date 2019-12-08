@@ -35,9 +35,11 @@ class Services extends Component {
                     <img src={item.image} alt="service" className="service-img" />
                   </div>
                   <div className="service-name text-uppercase text-center text-white">
-                    <h4 className="align-">{item.service}</h4>
+                    <h4 className="service-name-text">{item.service}</h4>
                   </div>
-                  <div className="service-detail">{item.detail}</div>
+                  <div className="service-detail">
+                    <span className="service-detail-text">{item.detail}</span>
+                  </div>
                 </div>
               );
             })}
