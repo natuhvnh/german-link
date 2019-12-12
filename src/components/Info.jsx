@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 class Info extends Component {
-  // const bg-img =
   render() {
     return (
       <React.Fragment>
