@@ -79,8 +79,8 @@ class Form extends Component {
               <label htmlFor="score">Điểm thi đại học 3 môn ghi trên giấy báo nhập học</label>
               <div className="row">
                 <div className="form-group col-md-4 col-12">
-                  <label htmlFor="math">Môn 1</label>
-                  <input type="text" name="math" className="form-control" id="math" required />
+                  <label htmlFor="sub1">Môn 1</label>
+                  <input type="text" name="sub1" className="form-control" id="sub1" required />
                 </div>
                 <div className="form-group col-md-4 col-12">
                   <label htmlFor="sub2">Môn 2</label>
@@ -126,19 +126,19 @@ class Form extends Component {
               <label htmlFor="score">Tốt nghiệp THPT từ 2017 trở đi: Điểm 6 môn</label>
               <div className="row">
                 <div className="form-group col-md-4 col-sm-6 col-12">
-                  <label htmlFor="math">Toán</label>
-                  <input type="text" name="math" className="form-control" id="math" required />
+                  <label htmlFor="math1">Toán</label>
+                  <input type="text" name="math1" className="form-control" id="math1" required />
                 </div>
                 <div className="form-group col-md-4 col-sm-6 col-12">
-                  <label htmlFor="liter">Văn</label>
-                  <input type="text" name="liter" className="form-control" id="liter" required />
+                  <label htmlFor="liter1">Văn</label>
+                  <input type="text" name="liter1" className="form-control" id="liter1" required />
                 </div>
                 <div className="form-group col-md-4 col-sm-6 col-12">
-                  <label htmlFor="eng">Ngoại ngữ</label>
-                  <input type="text" name="eng" className="form-control" id="eng" required />
+                  <label htmlFor="eng1">Ngoại ngữ</label>
+                  <input type="text" name="eng1" className="form-control" id="eng1" required />
                 </div>
                 <div className="form-group col-md-4 col-sm-6 col-12">
-                  <label htmlFor="option">
+                  <label htmlFor="option1">
                     <select name="subj" className="custom-select-sm custom-select">
                       <option defaultValue>Tự chọn 1</option>
                       <option value="toan">Toán</option>
@@ -152,10 +152,16 @@ class Form extends Component {
                       <option value="GDCD">GDCD</option>
                     </select>
                   </label>
-                  <input type="text" name="option" className="form-control" id="option" required />
+                  <input
+                    type="text"
+                    name="option1"
+                    className="form-control"
+                    id="option1"
+                    required
+                  />
                 </div>
                 <div className="form-group col-md-4 col-sm-6 col-12">
-                  <label htmlFor="option">
+                  <label htmlFor="option2">
                     <select name="subj" className="custom-select-sm custom-select">
                       <option defaultValue>Tự chọn 2</option>
                       <option value="toan">Toán</option>
@@ -169,10 +175,16 @@ class Form extends Component {
                       <option value="GDCD">GDCD</option>
                     </select>
                   </label>
-                  <input type="text" name="option" className="form-control" id="option" required />
+                  <input
+                    type="text"
+                    name="option2"
+                    className="form-control"
+                    id="option2"
+                    required
+                  />
                 </div>
                 <div className="form-group col-md-4 col-sm-6 col-12">
-                  <label htmlFor="option">
+                  <label htmlFor="option3">
                     <select name="subj" className="custom-select-sm custom-select">
                       <option defaultValue>Tự chọn 3</option>
                       <option value="toan">Toán</option>
@@ -186,7 +198,13 @@ class Form extends Component {
                       <option value="GDCD">GDCD</option>
                     </select>
                   </label>
-                  <input type="text" name="option" className="form-control" id="option" required />
+                  <input
+                    type="text"
+                    name="option3"
+                    className="form-control"
+                    id="option3"
+                    required
+                  />
                 </div>
               </div>
             </div>
