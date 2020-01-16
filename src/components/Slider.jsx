@@ -8,12 +8,25 @@ class Slider extends Component {
   state = {
     images: []
   };
+  // Laravel backend
+  // componentDidMount() {
+  //   axios.get("http://127.0.0.1:8000/sliders").then(res => {
+  //     this.setState({
+  //       images: res.data
+  //     });
+  //   });
+  // }
+  // Django backend
   componentDidMount() {
-    axios.get("http://127.0.0.1:8000/sliders").then(res => {
-      this.setState({
-        images: res.data
+    axios
+      .get("http://127.0.0.1:8000/slider", {
+        headers: { Authorization: "Token c018f7bc68f86e220ce2f69d47adac59179bb4d3" }
+      })
+      .then(res => {
+        this.setState({
+          images: res.data
+        });
       });
-    });
   }
   handleClose = () => {
     console.log("Close");

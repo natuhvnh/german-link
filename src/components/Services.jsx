@@ -26,12 +26,25 @@ class Services extends Component {
   state = {
     services: []
   };
+  // Laravel backend
+  // componentDidMount() {
+  //   axios.get("http://127.0.0.1:8000/services").then(res => {
+  //     this.setState({
+  //       services: res.data
+  //     });
+  //   });
+  // }
+  // Django backend
   componentDidMount() {
-    axios.get("http://127.0.0.1:8000/services").then(res => {
-      this.setState({
-        services: res.data
+    axios
+      .get("http://127.0.0.1:8000/service", {
+        headers: { Authorization: "Token c018f7bc68f86e220ce2f69d47adac59179bb4d3" }
+      })
+      .then(res => {
+        this.setState({
+          services: res.data
+        });
       });
-    });
   }
   render() {
     return (

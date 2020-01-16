@@ -45,12 +45,27 @@ class Card extends Component {
   state = {
     cards: []
   };
+  // Laravel backend
+  // componentDidMount() {
+  //   axios.get("http://127.0.0.1:8000/cards").then(res => {
+  //     this.setState({
+  //       cards: res.data
+  //     });
+  //     console.log(res.data);
+  //   });
+  // }
+
+  // Django backend
   componentDidMount() {
-    axios.get("http://127.0.0.1:8000/cards").then(res => {
-      this.setState({
-        cards: res.data
+    axios
+      .get("http://127.0.0.1:8000/card", {
+        headers: { Authorization: "Token c018f7bc68f86e220ce2f69d47adac59179bb4d3" }
+      })
+      .then(res => {
+        this.setState({
+          cards: res.data
+        });
       });
-    });
   }
   render() {
     return (
